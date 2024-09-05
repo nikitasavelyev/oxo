@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../images/stick1er.webp'; // Импорт изображения
+import image from 'images/stick1er.webp'; // Импорт изображения
 
 function Page1() {
   return (
