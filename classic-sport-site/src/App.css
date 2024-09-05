@@ -45,7 +45,7 @@ body {
   margin: 0;
   font-family: 'Arial', sans-serif;
   background-color: white;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 /* Стили для меню */
@@ -81,9 +81,9 @@ body {
 
 /* Стили для контента страниц */
 .page-content {
+  color: white; /* Для светлого текста на темном фоне */
   padding: 4rem;
   font-size: 1.5rem;
-  z-index: 1; 
 }
 
 h1 {
@@ -105,4 +105,12 @@ p {
   z-index: -1; /* Фон под контентом */
   background-color: black;
   pointer-events: none; /* Отключаем взаимодействие */
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Задайте нужную ширину */
+  max-width: 500px; /* Ограничение по максимальной ширине */
 }

@@ -1,11 +1,14 @@
-import React from "react";
+import React from 'react';
+import image from '../images/stick1er.webp'; // Импорт изображения
 
 function Page1() {
-  console.log("Страница 1 загружена");  // Добавим лог для проверки
   return (
-    <div>
-      <h1>Это Страница 1</h1>
-      <p>Добро пожаловать на первую страницу!</p>
+    <div className="page-content">
+      <h1>Если у тебя ещё нет головной боли</h1>
+      <p>Тогда мы идём к вам!</p>
+      
+      {/* Отображаем картинку */}
+      <img src={image} alt="Описание картинки" className="center-image" />
     </div>
   );
 }

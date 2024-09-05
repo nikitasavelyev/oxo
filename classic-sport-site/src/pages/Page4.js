@@ -3,7 +3,7 @@ import React from "react";
 function Page4() {
   return (
     <div className="page-content">
-      <h1>Классик-спорт: Страница 1</h1>
+      <h1>Страница 4</h1>
       <p>Минималистичный дизайн.</p>
     </div>
   );
